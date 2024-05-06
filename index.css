@@ -327,10 +327,13 @@ body {
   }
   .option .favorite {
     position: absolute;
-    z-index: 1;
+    background-image: url('image/heart-outline.png');
+    background-size: contain;
+    background-repeat: no-repeat;
     top: 5px;
-    right: 15px;
+    right: 5px;
     width: 50px;
+    height: 40px;
   }
 
   .icon {
