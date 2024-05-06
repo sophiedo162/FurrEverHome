@@ -54,7 +54,7 @@ body {
     width: 28px;
     height: 28px;
     top: -3px;
-    background-image: url('/image/default.png');
+    background-image: url('image/default.png');
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -213,6 +213,8 @@ body {
     border-image: linear-gradient(55deg, #2570B2, #C7E8EF, #6AD1BF, #F8C0C0, #2570B2) 1;
     border-width: 1.5px;
   }
+
+ 
   .heartIcon {
     margin: 8px 5px;
     width: 15px;
@@ -273,7 +275,6 @@ body {
   font-weight: 600;
   font-size: 25px;
 }
-
 
 .arrowDesktop {
   width: 50px;

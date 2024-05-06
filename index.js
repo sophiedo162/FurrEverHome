@@ -1,4 +1,4 @@
-$(".favorite").on("click", function(){
-   $(".favorite").css("display", "none");
-}
-);
+$("#favorite").on("click",function(){
+    $(".favorite").css("display", "none");
+})
+  
