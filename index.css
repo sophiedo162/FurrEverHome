@@ -80,7 +80,7 @@ body {
 }
 
 .filterIcon {
-    background-image: url('/image/dbbbcc5a04883c6e6215389b0cb5fcc1.png');
+    background-image: url('image/dbbbcc5a04883c6e6215389b0cb5fcc1.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 10%;
@@ -90,7 +90,7 @@ body {
     right:0;
 }
 .searchIcon {
-  background-image: url('/image/ddddds.png');
+  background-image: url('image/ddddds.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 20%;
@@ -143,7 +143,7 @@ body {
  /* cat toggle */
   .cat label::before {
     padding: 21px;
-    background-image: url('/image/cat-inactive.png');
+    background-image: url('image/cat-inactive.png');
   }
 
  #toggle1:checked + label::before {
@@ -153,7 +153,7 @@ body {
 
  /* dog toggle */
  .dog label::before {
-    background-image: url('/image/dog-inactive.png');
+    background-image: url('image/dog-inactive.png');
     padding:25px;
     margin-left:-5px;
   }
@@ -168,7 +168,7 @@ body {
     padding:26px;
     margin-top: -15px;
     margin-left: -4px;
-    background-image: url('/image/rabit-inactive.png');
+    background-image: url('image/rabit-inactive.png');
   }
  #toggle3:checked + label::before {
     transform: translateY(30px);
@@ -181,7 +181,7 @@ body {
     padding:26px;
     margin-top: -5px;
     margin-left: -4px;
-    background-image: url('/image/bird-inactive.png');
+    background-image: url('image/bird-inactive.png');
   }
  #toggle4:checked + label::before {
     transform: translateY(35px);
