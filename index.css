@@ -228,6 +228,11 @@ body {
     color: #3F7FBA !important;
     font-size: 22px;
   }
+
+  .navbar-nav>li>a:hover {
+    font-weight: 700;
+  }
+
   .heroImageDesktop {
     background-image: url('image/background.png');
     background-repeat: no-repeat;
@@ -268,6 +273,8 @@ body {
   font-weight: 600;
   font-size: 25px;
 }
+
+
 .arrowDesktop {
   width: 50px;
   height: 50px;
@@ -336,6 +343,11 @@ body {
     height: 40px;
   }
 
+  .option img:hover {
+    width: 180px;
+    margin-top: -10px;
+  
+  }
   .icon {
     display: none;
     
