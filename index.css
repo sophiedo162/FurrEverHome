@@ -267,6 +267,7 @@ body {
   width: 70%;
 }
 .donate {
+  margin-right: 20px;
   display: flex;
   justify-content: end;
 }
@@ -287,7 +288,7 @@ body {
   background-image: url('image/arrow-button.png');
   background-size: cover;
   background-repeat: no-repeat;
-  margin-left: -15px;
+  margin-left: -10px;
 }
   .heroImage {
     display: none;
@@ -340,7 +341,7 @@ body {
   }
   .option .favorite {
     position: absolute;
-    background-image: url('image/heart-outline.png');
+    /* background-image: url('image/heart-outline.png'); */
     background-size: contain;
     background-repeat: no-repeat;
     top: 5px;
@@ -348,11 +349,14 @@ body {
     width: 50px;
     height: 40px;
   }
+.fullHeart {
+  display: none;
+}
 
-  .option img:hover {
+  .option .board:hover {
     width: 180px;
     margin-top: -10px;
-  
+    box-shadow: 5px 15px 5px 1px #c1c1c1;
   }
   .icon {
     display: none;
